@@ -5,6 +5,7 @@ import Internships from './components/Internships'
 import Leadership from './components/Leadership'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
+import SoftSkills from './components/SoftSkills'
 import TechnicalSkills from './components/TechnicalSkills'
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Projects />
         <Internships />
         <Leadership />
+        <SoftSkills />
       </main>
       <Footer />
     </div>
