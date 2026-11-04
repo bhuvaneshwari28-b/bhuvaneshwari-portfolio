@@ -1,4 +1,5 @@
 import About from './components/About'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Internships from './components/Internships'
@@ -27,6 +28,7 @@ export default function App() {
       {showInternships && <Internships />}
       {showLeadership && <Leadership />}
       <SoftSkills />
+      <Contact />
       <Footer />
     </>
   )
