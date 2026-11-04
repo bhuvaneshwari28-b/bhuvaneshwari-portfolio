@@ -7,21 +7,23 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import SoftSkills from './components/SoftSkills'
 import TechnicalSkills from './components/TechnicalSkills'
+import { internshipsList, leadershipList } from './data/portfolioData'
 
 export default function App() {
+  const showInternships = internshipsList && internshipsList.length > 0
+  const showLeadership = leadershipList && leadershipList.length > 0
+
   return (
-    <div className="min-h-screen bg-black text-white selection:bg-red-500 selection:text-white flex flex-col justify-between">
+    <>
       <Navbar />
-      <main className="flex-grow">
-        <Hero />
-        <About />
-        <TechnicalSkills />
-        <Projects />
-        <Internships />
-        <Leadership />
-        <SoftSkills />
-      </main>
+      <Hero />
+      <About />
+      <TechnicalSkills />
+      <Projects />
+      {showInternships && <Internships />}
+      {showLeadership && <Leadership />}
+      <SoftSkills />
       <Footer />
-    </div>
+    </>
   )
 }
