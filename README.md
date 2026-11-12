@@ -2,7 +2,7 @@
 
 A modern, responsive single-page developer portfolio showcasing full-stack projects, core technical skills, and interactive UI experiences.
 
-**Live site:** https://YOUR-SITE-URL/
+**Live site:** https://my-portfolio-seven-rust-66.vercel.app/
 
 Built during the placement training program at [TAP Academy](https://thetapacademy.com/) (full-stack development, AI and augmented reality training).
 
@@ -52,3 +52,4 @@ VITE_EMAILJS_PUBLIC_KEY=
 ```
 
 *(Note: If these variables are omitted or empty, the contact form seamlessly defaults to an email-app mailto client fallback).*
+
