@@ -39,9 +39,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Middle: Huge Centred Brand Name */}
-      <div className="py-20 md:py-24 overflow-hidden text-center flex items-center justify-center">
-        <h2 className="text-[18vw] md:text-[16vw] leading-none font-sans font-bold tracking-tighter lowercase select-none text-[#f4f4f4] m-0 p-0">
+      {/* Middle: Centred Brand Name */}
+      <div className="py-16 md:py-20 overflow-hidden text-center flex items-center justify-center w-full px-2">
+        <h2 className="text-[clamp(2rem,7.5vw,7.5rem)] leading-none font-sans font-bold tracking-tighter lowercase select-none text-[#f4f4f4] m-0 p-0 whitespace-nowrap">
           {personalInfo.brandName.toLowerCase()}
         </h2>
       </div>
